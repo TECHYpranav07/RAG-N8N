@@ -1,0 +1,13 @@
+# System files
+desktop.ini
+thumbs.db
+.DS_Store
+
+# OS metadata
+.Spotlight-V100
+.Trashes
+
+# Temp files
+*.tmp
+*.bak
+*.log

@@ -32,9 +32,11 @@ The workflow is divided into two main components:
 
 ## 🎥 Demo Video
 
-Here is a short screen recording showing the workflow and bot in action:
+Here is a short screen recording showing the workflow and bot in action (if the video player doesn't load below, you can watch it using the direct link):
 
-<video src="assets/demo-recording.mp4" width="100%" controls></video>
+<video src="https://github.com/TECHYpranav07/RAG-N8N/raw/main/assets/demo-recording.mp4" width="100%" controls></video>
+
+🔗 [Watch or download the demo video directly](https://github.com/TECHYpranav07/RAG-N8N/raw/main/assets/demo-recording.mp4)
 
 ---
 

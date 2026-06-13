@@ -2,6 +2,10 @@
 
 This repository contains a production-ready **Retrieval-Augmented Generation (RAG)** workflow for **n8n**. It automates document ingestion from Google Drive, processes and embeds the text, stores it in Pinecone, and hosts a Telegram AI assistant that retrieves information from the index while maintaining conversational history in MongoDB.
 
+## 📷 Workflow Preview
+
+![n8n Workflow Canvas](assets/n8n-workflow-canvas.png)
+
 ---
 
 ## 🛠️ Workflow Architecture
@@ -21,6 +25,16 @@ The workflow is divided into two main components:
 * **Tools**: Uses the Pinecone vector store index as a custom retrieval tool to search for context about the ingested documents.
 * **Memory**: Utilizes **MongoDB Chat Memory** (`chat_history` collection in `n8n_memory` database) to persist session history using the Telegram Chat ID.
 * **Output**: Sends formatting-restricted, clean, concise answers back to the Telegram user.
+
+![Telegram Bot Demo](assets/telegram-bot-demo.png)
+
+---
+
+## 🎥 Demo Video
+
+Here is a short screen recording showing the workflow and bot in action:
+
+<video src="assets/demo-recording.mp4" width="100%" controls></video>
 
 ---
 
@@ -68,4 +82,5 @@ Click the **Active** toggle in the top-right corner of the n8n canvas to deploy 
 
 * `rag-workflow.json`: The complete export of the n8n RAG workflow.
 * `README.md`: Project documentation and setup instructions.
+* `assets/`: Media files showcasing the workflow interface.
 * `.gitignore`: Excludes system configuration files.
